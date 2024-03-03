@@ -1,9 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long int
+#include <vector>
 int main(int argc, char const *argv[])
 {
     ll n;
+
     cin >> n;
     vector<ll> x(n);
     for (ll i = 0; i < n; i++)
